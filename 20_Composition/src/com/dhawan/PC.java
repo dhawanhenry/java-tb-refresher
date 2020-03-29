@@ -1,7 +1,6 @@
 package com.dhawan;
 
 public class PC {
-
     private Case theCase;
     private Monitor monitor;
     private Motherboard motherboard;
@@ -12,7 +11,6 @@ public class PC {
         this.motherboard = motherboard;
     }
 
-
     public void powerUp(){
         theCase.pressPowerButton();
         drawLogo();
@@ -22,5 +20,4 @@ public class PC {
         // Fancy graphics
         monitor.drawPixelAt(1200, 50, "yellow");
     }
-
 }

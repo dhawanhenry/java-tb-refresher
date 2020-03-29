@@ -1,7 +1,6 @@
 package com.dhawan;
 
 public class Monitor {
-
     private String model;
     private String manufacturer;
     private int size;
@@ -34,3 +33,4 @@ public class Monitor {
         return nativeResolution;
     }
 }
+

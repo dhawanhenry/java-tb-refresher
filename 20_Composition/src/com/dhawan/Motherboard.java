@@ -1,7 +1,6 @@
 package com.dhawan;
 
 public class Motherboard {
-
     private String model;
     private String manufacturer;
     private int ramSlots;

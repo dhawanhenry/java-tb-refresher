@@ -1,7 +1,6 @@
 package com.dhawan;
 
 public class Resolution {
-
     private int width;
     private int height;
 

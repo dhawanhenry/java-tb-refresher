@@ -1,7 +1,6 @@
 package com.dhawan;
 
 public class Bedroom {
-
     private String name;
     private Wall wall1;
     private Wall wall2;
@@ -26,5 +25,8 @@ public class Bedroom {
         return this.lamp;
     }
 
-    
+    public void makeBed(){
+        System.out.println("Bedroom -> Making bed");
+        bed.make();
+    }
 }

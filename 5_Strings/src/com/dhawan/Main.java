@@ -9,5 +9,16 @@ public class Main {
 
         myString = myString + ", and this is more.";
         System.out.println("myString is equal to " + myString);
+
+        String numberString = "250.55";
+        numberString = numberString + "49.55";
+        System.out.println(numberString);
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("LastString is equal to " + lastString);
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("LastString is equal to " + lastString );
     }
 }
